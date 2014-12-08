@@ -1,0 +1,53 @@
+
+@media screen and (min-width: 620px) {
+
+	.navbar {
+		padding: 0 0;
+		text-align: initial;
+	}
+
+	li {
+		margin: 0.3em;
+		padding: 0.1em;
+		display: inline-block;
+	}
+
+	#title {
+		padding: 1.3em 2em 0;
+		float: left;
+	}
+
+	#title span {
+		display: inline-block;
+		font-size: 1em;
+		
+	}
+
+	nav ul {
+		float: right;
+	}
+
+	nav li {
+		display: inline-block;
+		padding: 1.3em 0.5em 0;
+	}
+
+	.answers {
+		/*display: inline-block;*/
+		/*float: left;*/
+	}
+
+	.image {
+		/*float: left;*/
+		display: block;
+		margin: 2px;
+		padding: 3px;
+		width: 80px;
+		height: 100px;
+	}
+
+/*	.image:nth-child(4n+4) {
+		clear: left;
+	}*/
+
+}
